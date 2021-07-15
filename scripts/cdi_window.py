@@ -609,7 +609,7 @@ class DataTab(QWidget):
         self.set_alien_layout(sub_layout)
         layout.addRow(sub_layout)
         self.amp_intensity = QLineEdit()
-        layout.addRow("amp intensity", self.amp_intensity)
+        layout.addRow("Intensity Thresh", self.amp_intensity)
         self.center_shift = QLineEdit()
         layout.addRow("center_shift", self.center_shift)
         self.adjust_dimensions = QLineEdit()
